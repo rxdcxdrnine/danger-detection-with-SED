@@ -1,5 +1,5 @@
 # danger-detection-with-SED
-2020-2 Univ. of Seoul Software Application Term Project. 
+2020-2 Univ. of Seoul Software Application Term Project.  
 Danger Detection System with SED Dataset.
 
 ## 1. Datasets
