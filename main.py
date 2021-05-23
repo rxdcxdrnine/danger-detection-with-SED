@@ -41,8 +41,7 @@ def main(args):
         torch.cuda.manual_seed(seed_num)
         
     if args["neptune"]:
-        neptune.init("changgu/SED",
-                    api_token="eyJhcGlfYWRkcmVzcyI6Imh0dHBzOi8vdWkubmVwdHVuZS5haSIsImFwaV91cmwiOiJodHRwczovL3VpLm5lcHR1bmUuYWkiLCJhcGlfa2V5IjoiN2JhMTk0Y2QtNTc0Ni00ZGVmLTliMjItMmViY2M5YzQ1NzA5In0=")
+        neptune.init("*")
         neptune.create_experiment(name="SED")        
     
     epochs = 100
